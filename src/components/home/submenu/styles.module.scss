@@ -21,8 +21,10 @@
     column-gap: 14px;
 }
 
+
+
 .ul li a{
-    background-color: #121212;
+    background-color: #1b02fb;
     color: #fff;
     padding: 8px 14px;
     border-radius: 4px;
@@ -64,14 +66,14 @@
     .ul li{
         a{
             background-color: transparent;
-            color: #121212;
+            color: #1b02fb;
             font-size: 20px;
             font-weight: bold;
             transition: all 0.6s;
         }
 
         a:hover{
-            background-color: #121212;
+            background-color: #1b02fb;
             color: #fff;
         }
     }

@@ -26,14 +26,14 @@ export function Submenu(){
     return(
         <section className={styles.submenu}>
            <div className={styles.submenuIcon} onClick={toggMenu}>
-                <Menu size={34} color="#121212"/>
+                <Menu size={34} color="#1b02fb"/>
                 Serviços
            </div>
             <ul className={`${styles.ul} ${isOpen ? styles.open : ""}`}>
 
                 {isOpen && (
                     <button onClick={toggMenu} className={styles.closeButton}>
-                        <X size={54} color='#121212' />
+                        <X size={54} color='#1b02fb' />
                     </button>
                 )}
 
