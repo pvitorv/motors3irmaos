@@ -5,6 +5,8 @@ import styles from './style.module.scss'
 import Link from 'next/link'
 
 
+
+
 export function Header(){
 
     const[top, setTop] = useState(true);
@@ -29,9 +31,7 @@ export function Header(){
                 <div className={styles.content}>
 
                     <div className={styles.contentLogo}>
-                        <a href='/'>
-                            Motors 3 Irmãos
-                        </a>
+                       
                     </div>
 
                     <nav className={styles.nav}>
